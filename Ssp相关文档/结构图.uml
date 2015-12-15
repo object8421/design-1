@@ -363,7 +363,7 @@
 <XPD:REF name="Model">zsmF7uqfQ0a/Vb4mZ+6pxAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="8GHwGuieHEeV63qEHXYIewAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="73PzR5gWkEqvq/k9LQpJzAAA">
-<XPD:ATTR name="Text" type="string">日志模块</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">日志存储</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="9dV6xS9MUUyrTT2yh7i7CgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1286,7 +1286,7 @@
 <XPD:REF name="SupplierDependencies[0]">7IIqNuDd+EmOiiacbDGn+gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[12]" type="UMLPackage" guid="zsmF7uqfQ0a/Vb4mZ+6pxAAA">
-<XPD:ATTR name="Name" type="string">日志模块</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">日志存储</XPD:ATTR>
 <XPD:REF name="Namespace">jT/axdNS80my0HHkjqzA9wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">AFkGAQlctUGa0DXHeHnOdgAA</XPD:REF>
