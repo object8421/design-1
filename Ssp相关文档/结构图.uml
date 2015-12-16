@@ -443,7 +443,7 @@
 <XPD:REF name="Model">eTCdjuukdUuIlnYPPdtDnAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="oj+BZMdEBEOBu7bzn3kdigAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="jp9cGI3qCUONTJo6njLoMQAA">
-<XPD:ATTR name="Text" type="string">NoSQL数据库</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">广告位数据库</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="cv5i2H1U6UOMDdSiPtk35AAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1321,7 +1321,7 @@
 <XPD:REF name="Views[0]">Y/UA0JnhK0G1+Q42Z+mv9wAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[16]" type="UMLPackage" guid="eTCdjuukdUuIlnYPPdtDnAAA">
-<XPD:ATTR name="Name" type="string">NoSQL数据库</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">广告位数据库</XPD:ATTR>
 <XPD:REF name="Namespace">jT/axdNS80my0HHkjqzA9wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">U6v4bbTR2kWw+WcSR/UmLAAA</XPD:REF>
