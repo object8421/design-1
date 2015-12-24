@@ -378,12 +378,12 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">616</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">340</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">82</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">57</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">49</XPD:ATTR>
 <XPD:REF name="Model">sRH4bv+Qg0iLefz1kF04IwAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="mZpw4cwq1kqtQaxBMtqoOgAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="3rkH30mtUE+T+bs9WoX9jwAA">
-<XPD:ATTR name="Text" type="string">竞价成功通知</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Viewer</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="oDy8/H4FSEK+KJpO/Yt36QAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -396,14 +396,14 @@
 <XPD:OBJ name="OwnedViews[18]" type="UMLPackageView" guid="FZnV5KywG0+75Gb263HZHgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">704</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">684</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">340</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">65</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">82</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">49</XPD:ATTR>
 <XPD:REF name="Model">BC4VpTtVLkS7F9zLHJ0J1QAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="aosxSnCDvkascya3IqTkGAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="1dL2QJFipUmRT3uOQNvDUAAA">
-<XPD:ATTR name="Text" type="string">Viewer</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">竞价成功通知</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="VKl3qaUExUuxmbaODwKmMgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -856,7 +856,7 @@
 <XPD:OBJ name="OwnedViews[39]" type="UMLDependencyView" guid="5bMg0Q0ArU6Jo1f+Du6HMAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">403,267;616,349</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">403,268;616,353</XPD:ATTR>
 <XPD:REF name="Model">HGalV9pHMkObAAeo3jp6MAAA</XPD:REF>
 <XPD:REF name="Head">VJn6au8QyEWTy9YJjgPgIAAA</XPD:REF>
 <XPD:REF name="Tail">LdtiOFj3jk+um59ucmY3xAAA</XPD:REF>
@@ -882,7 +882,7 @@
 <XPD:OBJ name="OwnedViews[40]" type="UMLDependencyView" guid="AA3PMccMs0uH+Xs2+TUw1wAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">403,262;704,354</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">403,263;684,351</XPD:ATTR>
 <XPD:REF name="Model">gVdbha3GTk2JoOO0IpRXLQAA</XPD:REF>
 <XPD:REF name="Head">FZnV5KywG0+75Gb263HZHgAA</XPD:REF>
 <XPD:REF name="Tail">LdtiOFj3jk+um59ucmY3xAAA</XPD:REF>
@@ -1038,7 +1038,7 @@
 <XPD:OBJ name="OwnedViews[46]" type="UMLDependencyView" guid="In1VC1i12kOvp7pdykQGnwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">616,378;324,480</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">616,374;324,479</XPD:ATTR>
 <XPD:REF name="Model">6IWm6S1NyU6O7/fWtiYsJQAA</XPD:REF>
 <XPD:REF name="Head">fK3NlJhyt06EbCR5OaGYjwAA</XPD:REF>
 <XPD:REF name="Tail">VJn6au8QyEWTy9YJjgPgIAAA</XPD:REF>
@@ -1521,7 +1521,7 @@
 <XPD:REF name="SupplierDependencies[1]">kc1lHYp/d0yusW6xLOEE1wAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[13]" type="UMLPackage" guid="sRH4bv+Qg0iLefz1kF04IwAA">
-<XPD:ATTR name="Name" type="string">竞价成功通知</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Viewer</XPD:ATTR>
 <XPD:REF name="Namespace">jT/axdNS80my0HHkjqzA9wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">VJn6au8QyEWTy9YJjgPgIAAA</XPD:REF>
@@ -1531,7 +1531,7 @@
 <XPD:REF name="SupplierDependencies[0]">HGalV9pHMkObAAeo3jp6MAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[14]" type="UMLPackage" guid="BC4VpTtVLkS7F9zLHJ0J1QAA">
-<XPD:ATTR name="Name" type="string">Viewer</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">竞价成功通知</XPD:ATTR>
 <XPD:REF name="Namespace">jT/axdNS80my0HHkjqzA9wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">FZnV5KywG0+75Gb263HZHgAA</XPD:REF>

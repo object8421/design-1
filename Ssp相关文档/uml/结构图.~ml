@@ -436,14 +436,14 @@
 <XPD:OBJ name="OwnedViews[20]" type="UMLPackageView" guid="U6v4bbTR2kWw+WcSR/UmLAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">660</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">679</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">444</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">135</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">78</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">93</XPD:ATTR>
 <XPD:REF name="Model">eTCdjuukdUuIlnYPPdtDnAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="oj+BZMdEBEOBu7bzn3kdigAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="jp9cGI3qCUONTJo6njLoMQAA">
-<XPD:ATTR name="Text" type="string">广告位数据库&amp; ssp 配置</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">NoSQL数据库</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="cv5i2H1U6UOMDdSiPtk35AAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1090,7 +1090,7 @@
 <XPD:OBJ name="OwnedViews[48]" type="UMLDependencyView" guid="y8hnuTyjM0iGKB71sJwS+QAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">567,404;660,454</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">563,404;679,469</XPD:ATTR>
 <XPD:REF name="Model">v3dfd7MF10qvSJ032n892AAA</XPD:REF>
 <XPD:REF name="Head">U6v4bbTR2kWw+WcSR/UmLAAA</XPD:REF>
 <XPD:REF name="Tail">72iLUk/81EuooQHLX1tA1QAA</XPD:REF>
@@ -1195,7 +1195,7 @@
 <XPD:REF name="Model">uOk7RGed+UCharAz/DzOagAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="aTGt2c5w/k+fuuq+VYheTgAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="lU36HVPRJEWyoomxw1Gq3QAA">
-<XPD:ATTR name="Text" type="string">ssp数据库</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">SSP数据库</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="kAWyVP9oK0Sf/6475G/E7wAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1254,7 +1254,7 @@
 <XPD:OBJ name="OwnedViews[56]" type="UMLDependencyView" guid="1O0ktXE59EOejKce3twwdwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">836,501;794,497</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">836,501;756,494</XPD:ATTR>
 <XPD:REF name="Model">TjaYXR7wuUyruqJNqwaU1AAA</XPD:REF>
 <XPD:REF name="Head">U6v4bbTR2kWw+WcSR/UmLAAA</XPD:REF>
 <XPD:REF name="Tail">FIA8Jy2jG0mvPJtaV4w5UAAA</XPD:REF>
@@ -1366,7 +1366,7 @@
 <XPD:OBJ name="OwnedViews[62]" type="UMLDependencyView" guid="LjQEiKDbwU+CcgjuPPl7LAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">861,316;762,444</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">859,316;755,444</XPD:ATTR>
 <XPD:REF name="Model">gPY6kDV6m0iaK7tqUH2d6QAA</XPD:REF>
 <XPD:REF name="Head">U6v4bbTR2kWw+WcSR/UmLAAA</XPD:REF>
 <XPD:REF name="Tail">RVAh6ya3GEaUWWqqmq+ObAAA</XPD:REF>
@@ -1545,7 +1545,7 @@
 <XPD:REF name="Views[0]">Y/UA0JnhK0G1+Q42Z+mv9wAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[16]" type="UMLPackage" guid="eTCdjuukdUuIlnYPPdtDnAAA">
-<XPD:ATTR name="Name" type="string">广告位数据库&amp; ssp 配置</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">NoSQL数据库</XPD:ATTR>
 <XPD:REF name="Namespace">jT/axdNS80my0HHkjqzA9wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">U6v4bbTR2kWw+WcSR/UmLAAA</XPD:REF>
@@ -1842,7 +1842,7 @@
 <XPD:REF name="Views[3]">VT+Ekhc13EWusC+Ld1pUVgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[47]" type="UMLPackage" guid="uOk7RGed+UCharAz/DzOagAA">
-<XPD:ATTR name="Name" type="string">ssp数据库</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">SSP数据库</XPD:ATTR>
 <XPD:REF name="Namespace">jT/axdNS80my0HHkjqzA9wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">FIA8Jy2jG0mvPJtaV4w5UAAA</XPD:REF>
