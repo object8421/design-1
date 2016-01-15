@@ -1,0 +1,295 @@
+package baichuan.ads;
+
+message BidRequest {
+// 请求 ID, 唯一标识本次请求，明文字符串
+	required string id = 1;
+	// **** 用户信息 ****
+	// 用户 IP 地址，点分十进制字符串
+	optional string ip = 2;
+	// User-Agent
+	optional string user_agent = 3;
+	message BaiduId {
+		optional string baidu_user_id = 1;
+		optional int32 baidu_user_id_version = 2;
+	}
+
+	required BaiduId baidu_id = 4;
+	// 用户兴趣
+	repeated int64 user_category = 5;
+	// 用户性别
+	enum Gender {
+		UNKNOWN = 0;
+		MALE = 1;
+		FEMALE = 2;
+	}
+
+	optional Gender gender = 6;
+
+	// 用户年龄
+	optional int32 user_age = 22;
+	// 人群标签
+	optional string user_label = 24;
+	// IPv6地址，服务器对接选填
+    optional string ipv6 = 23;  
+    
+	// 页面语言
+	optional string detected_language = 7;
+	// flash 版本
+	optional string flash_version = 8;
+	// **** 位置信息 ****
+
+	// 用户位置信息
+	message UserLocation {
+	// 省份，如北京市
+		optional string province = 1;
+		// 城市，如北京市
+		optional string city = 2;
+	}
+	optional UserLocation user_location = 9;
+	// dsp保存的对应百川用户id
+	optional string bc_user_id = 10;
+	// **** 页面信息 ****
+	// 当前页面 URL
+	optional string url = 11;
+	// 请求的 referer
+	optional string referer = 12;
+	// 网站分类
+	optional int32 site_category = 13;
+	// 页面类型
+	optional int32 page_type = 14;
+	// 页面关键词
+	repeated string page_keyword = 15;
+	// 页面内容质量
+	optional int32 page_quality = 16;
+	// 页面分类
+	optional int32 page_vertical = 17;
+	// 产品线不允许的广告行业
+	repeated int32 excluded_product_category = 18;
+	// **** 移动信息 ****
+	message Mobile {
+	// **** 移动设备信息 ****
+	// 百度唯一标识移动设备的编号
+		optional string device_id = 1;
+		// 安卓设备的android id的MD5值
+		optional string android_id = 12;
+		// 安卓设备的imei的MD5值
+		optional string imei = 13;
+		// 安卓设备的mac地址MD5值
+		optional string mac = 14;
+		
+		
+		//手机是否root  //，是否越狱或root. 0: 否; 1: 是   
+		enum MobileIsRoot {
+			ISROOT_NO = 0;
+			ISROOT_YES = 1;
+		}
+		optional MobileIsRoot is_root = 15;
+		// 获取手机终端语言
+		optional string lang = 16;
+		// 手机屏幕密度
+		optional double density = 17;
+		
+		//屏幕横屏还是竖屏  //，屏幕方向 0:未知;1:竖屏;2:横屏  
+		enum MobileOrientation {
+			UNKNOWN = 0;
+			PERPENDICULAR = 1;
+			HORIZONTAL = 2;
+		}
+		optional MobileOrientation orientation = 18;
+		// 经度  (Y)
+		optional float lat = 19;
+		
+		//，纬度  (Y)  
+		optional float lon = 20;
+		
+		//，国家码，ISO 3166-2 (Y)
+		optional string cc = 21;
+	
+		//，城市，采用  (Y)
+		optional string city = 22;
+		// imsi
+		optional string imsi = 23;
+		
+		//idfa
+		optional string idfa = 24;
+		//idfv
+	    optional string idfv = 25;
+		//全球卫星定位系统坐标系,2国家测绘局坐标系,百度坐标系
+		optional int32 gps_type = 26;
+		//移动设备版本号
+		optional string phone_version = 27;
+		//秋实映射广告位ID
+		optional string union_place_id = 28;
+		//秋实映射APP ID
+		optional string union_app_id = 29;
+
+		// 设备类型定义
+		enum MobileDeviceType {
+			UNKNOWN_DEVICE = 0;
+			IPHONE = 1;
+			IPAD = 2;
+			IPOD = 3;
+			ANDROID_PHONE = 4;
+			ADROID_PAD = 5;
+		}
+		// 设备类型
+		optional MobileDeviceType device_type = 2;
+		// 移动平台名，例如 android，iphone 等等
+		enum OS {
+			UNKNOWN_OS = 0;
+			IOS = 1;
+			ANDROID = 2;
+			WINDOWS_PHONE = 3;
+		}
+
+		optional OS platform = 3 [default = UNKNOWN_OS];
+
+		// 设备品牌
+		optional string brand = 4;
+		// 设备机型
+		optional string model = 5;
+		// 设备屏宽
+		optional int32 screen_width = 6;
+		// 设备屏高
+		optional int32 screen_height = 7;
+		// 运营商
+		optional int64 carrier_id = 8;
+		// 无线网络类型
+		enum WirelessNetworkType {
+			UNKNOWN_NETWORK = 0;
+			WIFI = 1;
+			MOBILE_2G = 2;
+			MOBILE_3G = 3;
+			MOBILE_4G = 4;
+		}
+
+		optional WirelessNetworkType wireless_network_type = 9;
+		// 移动设备上为广告控制提供的 ID
+		optional string for_advertising_id = 10;
+		// **** 移动应用信息 ****
+		message MobileApp {
+		// 百川系统为该 App 分配的 app id
+			optional string app_id = 1;
+			// App 应用的 package 全名
+			optional string app_bundle_id = 2;
+			// App 应用分类
+			optional int32 app_category = 3;
+			// App 名称
+			optional string app_name = 4;
+			// App 版本
+			optional string app_version = 5;
+		}
+		// 移动应用信息，当流量来自 App 时该字段非空
+		optional MobileApp mobile_app = 11;
+	}
+	// 移动信息，当流量来自移动设备时该字段非空
+	optional Mobile mobile = 19;
+
+	// **** 广告位信息 ****
+	message AdSlot {
+	// 广告位 ID，全局唯一 ID
+		optional uint64 ad_block_key = 1;
+		// 展示类型
+		optional int32 adslot_type = 2;
+		// 宽
+		optional int32 width = 3;
+		// 高
+		optional int32 height = 4;
+
+		// 发布商允许的创意类型
+		repeated int32 creative_type = 5;
+		// 发布商不允许的 landing page url
+		repeated string excluded_landing_page_url = 6;
+		// 媒体保护设置对应信息的 ID
+		repeated fixed64 publisher_settings_list_id = 7;
+		// 发布商设置的底价，单位分
+		optional int32 minimum_cpm = 8;
+
+		
+		// 广告位位置
+        enum Position {
+            TOP = 1;  // 顶部
+            BOTTOM = 2;  // 底部
+            FLOW = 3;  // 信息流内
+            MIDDLE = 4;  // 中部（插屏广告专用）
+            FULLSCREEN = 5;  // 全屏（开屏广告专用）
+        }
+        optional Position position = 9;
+        
+        // 广告位填充物料必选素材
+        enum Asset {
+            TITLE = 1; //推广标题
+            TEXT = 2; //推广摘要信息
+            ICON_IMAGE = 3; //广告Logo
+            MAIN_IMAGE = 4; //图片信息
+        }
+        optional Asset asset = 10;
+        
+        // 交互类型     1使用浏览器打开网页, 2下载应用,3拨打电话,4发送短信,5发送邮件
+		repeated int32 interaction_type = 11; 
+        
+	}
+	// 默认每次请求一个广告位
+	repeated AdSlot adslot = 20;
+	// **** 系统使用 ****
+	optional bool is_test = 21 [default = false];
+}
+
+message BidResponse {
+// 返回 ID，将请求中的 id 复制给返回 id，便于 session trace
+	required string id = 1;
+	// **** 竞价广告信息 ****
+	message Ad {
+		// 最高竞价，单位分
+		optional int32 max_cpm = 1;
+		// 扩展参数
+		optional string extdata = 2;
+		// 是否进行 cookie matching
+		optional bool is_cookie_matching = 3;
+		// 代码段
+		optional string html_snippet = 4;
+		// 创意宽
+		optional int32 width = 5;
+		// 创意高
+		optional int32 height = 6;
+		// 创意所属行业
+		optional int32 category = 7;
+		// 创意类型
+		optional int32 type = 8;
+		// 到达页面
+		optional string landing_page = 9;
+		// 素材地址
+		optional string adm = 10;
+		// win notice url，如有值则以此为准，否则以dsp接入提供的默认的为准
+		optional string nurl = 11;
+		// 点击链接
+		repeated string target_url = 12;
+		// 移动应用安装后的package name
+		optional string package_name = 13;
+		// **** 曝光检测地址信息 ****
+		message ExposureUrl{
+			// 时间，指第time_millis毫秒开始依次发送exposure_url曝光检测请求，单位毫秒
+			optional int32 time_millis = 1;
+			// 曝光检测请求Url，数组，可以发送第三方检测
+			repeated string exposure_url = 2;
+		}
+		//// **** 多个曝光检测地址，不同时间依次发送 ****
+		repeated ExposureUrl exposure_urls = 14;
+		//点击监测地址
+		repeated string click_urls = 15;
+		
+		// 交互类型     1使用浏览器打开网页, 2下载应用,3拨打电话,4发送短信,5发送邮件
+		optional int32 interaction_type = 16; 
+		
+		// 移动应用安装后的应用名
+		optional string download_name = 17;
+		
+	}
+
+	repeated Ad ad = 2;
+	// **** 系统使用 ****
+	// debug 接口
+	optional string debug_string = 3;
+	// DSP 处理时间
+	optional int32 processing_time_ms = 4;
+}
